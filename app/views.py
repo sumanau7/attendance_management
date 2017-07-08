@@ -9,7 +9,6 @@ from flask import request, jsonify
 
 # Project Imports
 from interfaces import AttendanceRegister, BreakRegister, ListAttendance
-from serializers import MembersEncoder
 from response import AttendanceSuccessResponse, BreakSuccessResponse,\
                      ListAttendanceSuccessResponse, ClientErrorResponse
 from validations import attendance_schema, take_break_schema, list_attendance_schema
