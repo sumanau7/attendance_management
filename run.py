@@ -13,4 +13,4 @@ register_api(views.AttendanceAPI, 'attendance_api', '/attendance/')
 register_api(views.BreakAPI, 'break_api', '/breaks/')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
