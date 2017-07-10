@@ -11,7 +11,7 @@ Database: SQLITE
 2. Install requirements: `pip install -r requirements.txt`
 3. Create database: `python db_create.py`
 4. Create Migration: `python db_migrate.py`
-5. `python run.py`
+5. `python run.py` - For local testing
 
 # Routes Expossed: </br>
 ## Attendance:</br>
@@ -22,7 +22,7 @@ Database: SQLITE
 ## Breaks:</br>
 `POST` /breaks/ - Marks start or end of break </br>
 
-## Deployment
+## Production Deployment
 
 
 ### Base Docker Image
